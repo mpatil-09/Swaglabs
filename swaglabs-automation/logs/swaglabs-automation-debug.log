@@ -1,0 +1,17 @@
+[INFO ] [main] SwaglabsBaseTest - test execution started
+[INFO ] [main] SwaglabsBaseTest - browser from properties is chrome
+[INFO ] [main] SwaglabsBaseTest - launching the chrome browser
+[INFO ] [main] SwaglabsListener - Test Execution Started -launchAppTest
+[INFO ] [main] LoginPage - Verifying the UsernameInputBox 
+[INFO ] [main] SwaglabsListener - Test Execution Successful -launchAppTest
+[INFO ] [main] SwaglabsListener - Test Execution Started -loginTest
+[INFO ] [main] LoginPage - typing the username
+[INFO ] [main] LoginPage - typing the password
+[INFO ] [main] LoginPage - click the Login link
+[INFO ] [main] SwaglabsListener - Test Execution Successful -loginTest
+[INFO ] [main] SwaglabsListener - Test Execution Started -addToCartTest
+[INFO ] [main] HomePage - Verifying the SauceLabsBackpackLink
+[INFO ] [main] HomePage - click on SauceLabs Backpack Link
+[INFO ] [main] ProductPage - Click Add to Cart Button
+[INFO ] [main] SwaglabsListener - Test Execution Successful -addToCartTest
+[INFO ] [main] SwaglabsBaseTest - Cleaning the browser session

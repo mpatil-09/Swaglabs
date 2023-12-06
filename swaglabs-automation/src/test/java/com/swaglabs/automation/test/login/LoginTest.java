@@ -43,7 +43,7 @@ public class LoginTest extends SwaglabsBaseTest {
 
 	@DataProvider(name = "loginData")
 	public Object[][] userDetails() throws Exception {
-		
+
 		Object[][] userData = ExcelReader.getTableArray("src/test/resources/test-data/login-data.xlsx", "users");
 		return userData;
 	}

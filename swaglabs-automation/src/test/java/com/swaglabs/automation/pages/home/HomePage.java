@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import com.swaglabs.automation.pages.base.BasePage;
+import com.swaglabs.automation.pages.product.ProductPage;
 
 public class HomePage extends BasePage {
 
@@ -89,6 +90,13 @@ public class HomePage extends BasePage {
 
 	}
 
+	public ProductPage clickSauceLabsBackpackLink() {
+
+		logger.info("click on SauceLabs Backpack Link");
+		sauceLabsBackpackLink.click();
+		return new ProductPage();
+	}
+
 	public boolean isAddToCartSauceLabsBackpackLinkPresent() {
 		logger.info("Verifying the AddToCartSauceLabsBackpackLink");
 		boolean isLoaded = addToCartSauceLabsBackpackLink.isDisplayed();
@@ -114,7 +122,7 @@ public class HomePage extends BasePage {
 		boolean isLoaded = addToCartSauceLabsBikeLightLink.isDisplayed();
 		return isLoaded;
 	}
-	
+
 	public HomePage clickAddToCartSauceLabsBikeLightLink() {
 		logger.info("Click on AddToCartSauceLabsBikeLightLink ");
 		addToCartSauceLabsBikeLightLink.click();

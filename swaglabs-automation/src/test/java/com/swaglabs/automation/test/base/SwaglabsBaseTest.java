@@ -41,6 +41,7 @@ public class SwaglabsBaseTest {
 		}
 
 		BasePage.driver = driver;
+		SwaglabsListener.driver=driver;
 
 	}
 
@@ -48,7 +49,7 @@ public class SwaglabsBaseTest {
 	public void teardown() throws InterruptedException {
 
 		logger.info("Cleaning the browser session");
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		driver.quit();
 	}
 

@@ -48,7 +48,7 @@ public class LoginPage extends BasePage {
 
 	public void typePassword(String password) {
 		logger.info("typing the password");
-		passwordInputBox.sendKeys("password");
+		passwordInputBox.sendKeys(password);
 
 	}
 

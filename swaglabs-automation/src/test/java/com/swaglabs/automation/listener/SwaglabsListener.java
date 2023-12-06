@@ -9,7 +9,7 @@ import org.testng.TestListenerAdapter;
 
 public class SwaglabsListener extends TestListenerAdapter {
 
-	public WebDriver driver;
+	public static WebDriver driver;
 
 	public static final Logger logger = LogManager.getLogger(SwaglabsListener.class);
 
